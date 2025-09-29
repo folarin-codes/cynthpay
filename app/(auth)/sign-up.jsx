@@ -14,7 +14,7 @@ const SignUp = ()=>{
         <CSafeAreaView>
 
             <View style={{marginTop:20}}>
-                <Text style={{textAlign:'right', fontFamily:'regular', color:COLORS.black}}>You have an account? <Link style={{color:COLORS.primary}} href={''}>Login</Link> </Text>
+                <Text style={{textAlign:'right', fontFamily:'regular', color:COLORS.black}}>You have an account? <Link style={{color:COLORS.primary}} href={'./login'}>Login</Link> </Text>
             </View>
       
             <View style={{gap:5, marginTop:20}}>

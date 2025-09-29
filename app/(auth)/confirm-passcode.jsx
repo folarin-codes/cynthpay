@@ -50,7 +50,7 @@ const ConfirmPasscode = ()=>{
             </View>
 
             <View style={{marginTop:Dimensions.get('screen').height*.07}}>
-                <Button text={"Confirm"} onPress={()=> router.push('/login')}/>
+                <Button text={"Confirm"} onPress={()=> router.push('./login')}/>
             </View>
 
         </CSafeAreaView>
